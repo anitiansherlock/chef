@@ -15,6 +15,10 @@ SITE
       ark (>= 0.0.0)
       chef-sugar (>= 0.0.0)
       yum (>= 0.0.0)
+    kibana (0.2.1)
+      apt (>= 0.0.0)
+      ark (>= 0.0.0)
+      build-essential (>= 0.0.0)
     mingw (2.0.1)
       seven_zip (>= 0.0.0)
     ohai (5.2.0)
@@ -26,4 +30,5 @@ SITE
 
 DEPENDENCIES
   elasticsearch (~> 3.4.3)
+  kibana (~> 0.2.1)
 
