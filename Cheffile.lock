@@ -1,6 +1,7 @@
 SITE
   remote: https://supermarket.getchef.com/api/v1
   specs:
+    apache2 (5.0.1)
     apt (6.1.4)
     ark (3.1.0)
       build-essential (>= 0.0.0)
@@ -39,6 +40,7 @@ SITE
     zypper (0.4.0)
 
 DEPENDENCIES
+  apache2 (>= 0)
   chef_nginx (>= 0)
   elasticsearch (~> 3.4.3)
   kibana (~> 0.2.1)
