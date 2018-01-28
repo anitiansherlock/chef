@@ -10,6 +10,13 @@ SITE
       mingw (>= 1.1)
       seven_zip (>= 0.0.0)
     chef-sugar (3.6.0)
+    chef_nginx (6.2.0)
+      build-essential (>= 0.0.0)
+      compat_resource (>= 12.16.3)
+      ohai (>= 4.1.0)
+      yum-epel (>= 0.0.0)
+      zypper (>= 0.0.0)
+    compat_resource (12.19.0)
     elasticsearch (3.4.3)
       apt (>= 0.0.0)
       ark (>= 0.0.0)
@@ -27,8 +34,12 @@ SITE
     windows (3.4.4)
       ohai (>= 4.0.0)
     yum (5.1.0)
+    yum-epel (2.1.2)
+      compat_resource (>= 12.16.3)
+    zypper (0.4.0)
 
 DEPENDENCIES
+  chef_nginx (>= 0)
   elasticsearch (~> 3.4.3)
   kibana (~> 0.2.1)
 

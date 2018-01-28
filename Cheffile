@@ -2,4 +2,4 @@ site "https://supermarket.getchef.com/api/v1"
 
 cookbook 'elasticsearch', '~> 3.4.3'
 cookbook 'kibana', '~> 0.2.1'
-
+cookbook 'chef_nginx'
