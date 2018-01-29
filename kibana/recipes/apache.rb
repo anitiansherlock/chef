@@ -6,10 +6,6 @@ Setup vhost for apache that rewrites to Kibana.
 #>
 =end
 
-include_recipe 'apache2'
-include_recipe 'apache2::mod_proxy'
-include_recipe 'apache2::mod_proxy_http'
-
 template "#{node['apache']['dir']}/htpasswd" do
   variables(username: node['kibana']['apache']['basic_auth_username'],
             password: node['kibana']['apache']['basic_auth_password'])
